@@ -166,7 +166,7 @@ function update(){
 
         if(detect_collison(player,enemy[i])){
 
-            player.health-=100;
+            player.health-=130;
         }
 
         if(player.health<0){
@@ -185,7 +185,7 @@ function update(){
     if(player.moving==true){
 
         player.x+=player.speed;
-        player.health+=20;
+        player.health+=5;
     }
 
 
